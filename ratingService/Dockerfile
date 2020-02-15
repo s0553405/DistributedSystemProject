@@ -2,7 +2,7 @@ FROM hirokimatsumoto/alpine-openjdk-11
 
 VOLUME /tmp
 
-EXPOSE 80
+EXPOSE 8090
 
 COPY target/*.jar ratingService.jar
 
