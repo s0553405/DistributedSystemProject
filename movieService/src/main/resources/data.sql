@@ -1,0 +1,14 @@
+INSERT into c_movie (id, title, release) VALUES (1, 'The Irishman', 2019);
+INSERT into c_movie (id, title, release) VALUES (2, 'Joker', 2019);
+INSERT into c_movie (id, title, release) VALUES (3, 'Once Upon a Time in Hollywood ', 2019);
+INSERT into c_movie (id, title, release) VALUES (4, 'Der König der Löwen', 1994);
+INSERT into c_movie (id, title, release) VALUES (5, 'Edge of Tomorrow - Live. Die. Repeat', 2014);
+INSERT into c_movie (id, title, release) VALUES (6, 'Avengers: Endgame', 2019);
+INSERT into c_movie (id, title, release) VALUES (7, 'Iron Man', 2008);
+INSERT into c_movie (id, title, release) VALUES (8, 'Green Book', 2018);
+INSERT into c_movie (id, title, release) VALUES (9, 'Johnny English - Jetzt erst recht!', 2011);
+INSERT into c_movie (id, title, release) VALUES (10, 'Manchester by the Sea', 2016);
+INSERT into c_movie (id, title, release) VALUES (11, 'Passengers', 2016);
+INSERT into c_movie (id, title, release) VALUES (12, 'Tonya', 2017);
+INSERT into c_movie (id, title, release) VALUES (13, 'Bohemian Rhapsody', 2018);
+INSERT into c_movie (id, title, release) VALUES (14, 'Coraline', 2009);
