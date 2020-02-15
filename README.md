@@ -15,7 +15,7 @@ MovieService: Nutzer kann hier seine Filme verwalten, hinzufügen und löschen.
 - Stellt Filminformationen über einen API-Endpoint bereit
 - Port 8083
 
-RatingService: 
+RatingService: Nutzer kann hier seine Filme bewerten.
 - MongoDB (Port 27017 / MyTestDb)
 - Stellt Ratings über einen API-Endpoint bereit
 - Port 8090
