@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.min.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>MovieOverview</title>
+</head>
+<body>
+
+
+<div class="container">
+
+    <h1 align="center" class="p-3 mb-2">MOVIE MANAGEMENT</h1>
+    <form>
+        <div class="form-row">
+            <div class="col-4">
+                <input type="text" class="form-control" placeholder="TITLE">
+            </div>
+            <div class="col-2">
+                <input type="text" class="form-control" placeholder="RELEASE YEAR">
+            </div>
+            <div class="col-auto"><button type="submit" class="btn btn-primary">Submit</button></div>
+
+        </div>
+
+    </form>
+
+    <h3 align="center" class="p-3">MOVIE OVERVIEW</h3>
+    <div>
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th scope="col">Movie</th>
+                <th scope="col">Release</th>
+                <th scope="col">Rating</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td th:text="title"></td>
+                <td th:text="year"></td>
+                <td th:text="rating"></td>
+
+            </tr>
+
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+
+</body>
+</html>
